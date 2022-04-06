@@ -1,5 +1,6 @@
 <section>
 <h1><?php echo $judul ?></h1>
+ <link rel="stylesheet"type="text/css"href="<?php echo base url()?>assets/css/stylebuku.css">
 <p align='justify'>pada pengertian codelgniter diatas tadi di jelaskan bahwa codelgniter menggunakan metode MVC.Apa itu MVC? kita juga harus mengetahui apa itu MVC sebelum masuk jauh dalam belajar codelgniter.</p>
 <ol type="a">
 	<li>Model</li>
