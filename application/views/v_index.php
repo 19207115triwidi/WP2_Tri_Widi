@@ -1,6 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Web prog II | Merancang Template Sederhana Dengan Codeigniter</title>
+	<link rel="stylesheet" type="text/css"href=""<?php echo base_url()?>assets/css/stylebuku.css>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<hgroup>
+				<h1>RentalBuku.net</h1>
+				<h3>Membuat Template Sederhana Dengan CodeIgniter</h3>
+			</hgroup>
+			<nav>
+				<ul>
+					<li><a href="<?php echo base_url() . 'web' ?>">Home</a></li>
+					<li><a href="<?php echo base_url() . 'web/about' ?>">About</a></li>
+				</ul>
+			</nav>
+			<div class="clear"></div>
+		</header>
+
 <section>
 <h1><?php echo $judul ?></h1>
- <link rel="stylesheet"type="text/css"href="<?php echo base url()?>assets/css/stylebuku.css">
 <p align='justify'>pada pengertian codelgniter diatas tadi di jelaskan bahwa codelgniter menggunakan metode MVC.Apa itu MVC? kita juga harus mengetahui apa itu MVC sebelum masuk jauh dalam belajar codelgniter.</p>
 <ol type="a">
 	<li>Model</li>
@@ -14,3 +37,9 @@
 <p align='justify'>dari penjelasan diatas tentang model,view dan controller dapat didimpilkan bahwa controller sebagai pengubung view dan model,misalnya pada aplikasi yang menampilkan data dengan menggunakan metode konsep MVC. controller memanggil intruksi padamodel yang mengambil data pada database,kemudian controller meneruskan pada view yang ditampilkan .jadi jelas sudah dan sangat mudah dalam pengembangan aplikasi dengancara MVC ini karena web designer atau fornt end developer tidak perlu lagi berhubungan dengan controller,dia hanya perlu berhubungan dengan controller,dia hanya perlu berhubungan dengan view untuk medesigner  tampilan aplikasi,karena back and developer yang menangani bagian controller dan modelnya,jADI PEMBAGIAN TUGAS PUN MENJADI MUDAH DAN PENGEMBANGAN APLIKASI DAPAT DILAKUKAN DENGANCEPAT DAN TERSTRUKTUR.</p>
 </ol>
 </section>
+<footer>
+	<a href="http://www.RentalBuku.com">RentalBuku</a>
+</footer>
+</div>
+</body>
+</html>
